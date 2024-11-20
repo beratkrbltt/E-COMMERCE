@@ -13,9 +13,9 @@ Bu proje, React kullanılarak geliştirilmiş bir e-ticaret uygulamasıdır. Ür
 ## 🛠️ Kullanılan Teknolojiler
 
 - **React**: Kullanıcı arayüzünü oluşturmak için kullanıldı.
-- **React Router-Dom**: Sayfa yönlendirmeleri için.
-- **Redux Toolkit**: Uygulamanın durum yönetimi için kullanıldı. Redux Toolkit, Redux işlemlerini daha basit ve verimli hale getiren resmi bir araçtır. `createSlice` ve `configureStore` kullanılarak, uygulamanın durum yönetimi daha modüler ve bakımı kolay hale getirildi.
-- **FakeStoreAPI**: Ürün verilerini almak için bu API kullanıldı.
+- **React Router**: Sayfa yönlendirmeleri için.
+- **Redux Toolkit**: Uygulamanın durum yönetimi için kullanıldı.
+- **Axios**: API ile veri alışverişi yapmak için.
 
 ## 📸 Ekran Görüntüleri
 
@@ -26,15 +26,7 @@ Bu proje, React kullanılarak geliştirilmiş bir e-ticaret uygulamasıdır. Ür
 
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-1. Proje klasörüne gidin:
-   ```bash
-   cd E-COMMERCE
-   
-2. Projeyi başlatın:
-   ```bash
-   npm install
-
-3. Bağımlılıkları yükleyin:
-   ```bash
-   npm start
+1. E-COMMERCE dosyasını zipten çıkarın.
+2. Terminal veya komut satırında, proje klasörüne gidin ve bağımlılıkları yüklemek için npm install komutunu çalıştırın.
+3. Projeyi yerel sunucuda görüntülemek için npm run dev komutunu çalıştırın.
    
