@@ -1,0 +1,35 @@
+.image {
+    margin: 18px;
+    width: 150px;
+    height: 210px;
+    border-radius: 15px;
+}
+
+.card {
+    width: 190px;
+    height: 450px;
+    box-shadow: 2px 2px 8px 2px rgb(185, 93, 23);
+    border-radius: 15px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0px 8px 16px rgb(185, 93, 23);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.detail-button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(124, 36, 36);
+    color: white;
+}
+
+.detail-button:hover {
+    cursor: pointer;
+    background-color: rgb(185, 93, 23);
+    transition: all 0.6s;
+}
