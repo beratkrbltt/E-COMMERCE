@@ -28,11 +28,13 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları i
 
 1. Proje klasörüne gidin:
    ```bash
-   cd react-ecommerce
-2.Projeyi başlatın:
-    ```bash
-    npm install
-3.Bağımlılıkları yükleyin:
-    ```bash
-    npm start
+   cd E-COMMERCE
+   
+2. Projeyi başlatın:
+   ```bash
+   npm install
+
+3. Bağımlılıkları yükleyin:
+   ```bash
+   npm start
    
