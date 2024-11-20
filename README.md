@@ -6,31 +6,33 @@ Bu proje, React kullanılarak geliştirilmiş bir e-ticaret uygulamasıdır. Ür
 
 - 🔍 Ürünleri görüntüleme ve detay sayfasına erişim
 - 🛒 Ürünleri sepete ekleme ve çıkarma
-- 💳 Toplam tutarı hesaplama ve ödeme simülasyonu
+- 💳 Toplam tutarı hesaplama
 - 📱 Tamamen duyarlı (responsive) tasarım
 - 🌐 API entegrasyonu ile gerçek zamanlı veri çekimi
 
 ## 🛠️ Kullanılan Teknolojiler
 
-- **React.js**: Kullanıcı arayüzünü oluşturmak için.
-- **React Router**: Sayfa yönlendirmeleri için.
-- **Axios**: API ile veri alışverişi yapmak için.
-- **CSS/SCSS**: Stil ve tasarım için.
-- **Fake Store API**: Ürün verilerini sağlamak için.
+- **React**: Kullanıcı arayüzünü oluşturmak için kullanıldı.
+- **React Router-Dom**: Sayfa yönlendirmeleri için.
+- **Redux Toolkit**: Uygulamanın durum yönetimi için kullanıldı. Redux Toolkit, Redux işlemlerini daha basit ve verimli hale getiren resmi bir araçtır. `createSlice` ve `configureStore` kullanılarak, uygulamanın durum yönetimi daha modüler ve bakımı kolay hale getirildi.
+- **FakeStoreAPI**: Ürün verilerini almak için bu API kullanıldı.
 
 ## 📸 Ekran Görüntüleri
 
-![Anasayfa Görseli](images/homepage.png)
-![Ürün Detay Görseli](images/product-detail.png)
-
-## 🔗 Canlı Demo
-
-Projenin canlı demo bağlantısını buraya ekleyin: [Canlı Demo](#)
+![Anasayfa Görseli](image/homepage.png)
+![Ürün Detay Görseli](image/product-detail.png)
 
 ## 📦 Projeyi Çalıştırma
 
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
 
-1. Bu projeyi klonlayın:
+1. Proje klasörüne gidin:
    ```bash
-   git clone https://github.com/kullanıcıAdınız/react-ecommerce.git
+   cd react-ecommerce
+2.Projeyi başlatın:
+    ```bash
+    npm install
+3.Bağımlılıkları yükleyin:
+    ```bash
+    npm start
+   
