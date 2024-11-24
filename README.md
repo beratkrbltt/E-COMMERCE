@@ -7,7 +7,6 @@ Bu proje, React kullanılarak geliştirilmiş bir e-ticaret uygulamasıdır. Ür
 - 🔍 Ürünleri görüntüleme ve detay sayfasına erişim
 - 🛒 Ürünleri sepete ekleme ve çıkarma
 - 💳 Toplam tutarı hesaplama
-- 📱 Tamamen duyarlı (responsive) tasarım
 - 🌐 API entegrasyonu ile gerçek zamanlı veri çekimi
 
 ## 🛠️ Kullanılan Teknolojiler
